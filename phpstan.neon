@@ -1,0 +1,12 @@
+rules:
+    - App\PHPStan\ForbiddenGlobalFunctionsRule
+
+parameters:
+
+    paths:
+        - app
+
+    level: 6
+
+    ignoreErrors:
+        - identifier: missingType.generics
